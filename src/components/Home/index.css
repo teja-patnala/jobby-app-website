@@ -1,0 +1,35 @@
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.container3 {
+  height: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+.main-heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+.main-para {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  width: 60vw;
+}
+.bt1 {
+  height: 30px;
+  width: 130px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  border-width: 0px;
+}

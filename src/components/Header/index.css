@@ -1,0 +1,26 @@
+.home-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  background-color: #272727;
+  padding: 10px;
+  height: 50x;
+}
+.img2 {
+  height: 35px;
+  width: 100px;
+  margin-left: 30px;
+}
+.btn2 {
+  height: 35px;
+  width: 100px;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.link1 {
+  margin: 4px;
+  color: white;
+}
