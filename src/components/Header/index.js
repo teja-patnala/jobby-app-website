@@ -5,6 +5,7 @@ import {Cookies} from 'js-cookie'
 const Header = props => {
   const {history} = props
   const logout = () => {
+    const {history} = this.props
     Cookies.remove('jwt_token')
     history.replace('/login')
   }
@@ -40,4 +41,4 @@ const Header = props => {
     </div>
   )
 }
-export default withRouter(Header)
+export default WithRouter(Header)
