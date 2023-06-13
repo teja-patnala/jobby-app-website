@@ -3,9 +3,8 @@ import {Link, WithRouter} from 'react-router-dom'
 import {Cookies} from 'js-cookie'
 
 const Header = props => {
-  const {history} = props
   const logout = () => {
-    const {history} = this.props
+    const {history} = props
     Cookies.remove('jwt_token')
     history.replace('/login')
   }
