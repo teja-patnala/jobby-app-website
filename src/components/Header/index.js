@@ -1,5 +1,5 @@
 import './index.css'
-import {Link, WithRouter} from 'react-router-dom'
+import {Link, withRouter} from 'react-router-dom'
 import {Cookies} from 'js-cookie'
 
 const Header = props => {
@@ -40,4 +40,4 @@ const Header = props => {
     </div>
   )
 }
-export default WithRouter(Header)
+export default withRouter(Header)
